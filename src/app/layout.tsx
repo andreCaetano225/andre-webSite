@@ -1,10 +1,18 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Poppins } from 'next/font/google'
 import { ThemeProvider } from './theme-provider'
 import { ThemeSwitcher } from '../components/ThemeSwitcher'
 
-const inter = Inter({ subsets: ['latin'] })
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
+
+
+
 
 export const metadata: Metadata = {
   title: 'Andre Dev - Blog',
@@ -21,7 +29,8 @@ export default function RootLayout({
       <body className={`${inter.className} bg-lightBg dark:bg-darkBg `}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <ThemeSwitcher />
-          <main>{children}</main>
+          <main className='mt-24'>{children}</main>
+
         </ThemeProvider>
       </body>
     </html>
