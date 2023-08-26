@@ -1,12 +1,13 @@
+import { AboutMe } from '@/components/AboutMe/AboutMe'
 import { Profile } from '@/components/Profile'
-import { Skills } from '@/components/Skills'
-import Image from 'next/image'
+import { TechStack } from '@/components/TechStack/TechStack'
 
 export default function Home() {
   return (
     <div className="max-w-[1180px] w-full m-auto ">
       <Profile />
-      <Skills />
+      <AboutMe />
+      <TechStack />
     </div>
   )
 }
