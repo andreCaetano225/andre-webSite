@@ -24,6 +24,8 @@ const config: Config = {
         darkGrandBlue: '#13B0F5',
         darkGrandPink: '#E70FAA',
         darkBox: '#363636',
+        colorJoker: '#8A63E6',
+        bgColorJokerDark: '#181818'
 
       },
     },

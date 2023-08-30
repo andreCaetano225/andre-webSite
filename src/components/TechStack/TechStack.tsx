@@ -18,6 +18,7 @@ import Styled from '../../assets/styled-lith.svg'
 import StyledDark from '../../assets/styled-Dark.svg'
 import Jest from '../../assets/jest.svg'
 import { useTheme } from 'next-themes'
+import { Title } from '../Title';
 
 
 
@@ -28,9 +29,7 @@ export const TechStack = () => {
         <>
             <div className="flex items-center flex-col justify-center text-center mt-28 gap-10">
                 <div className="flex flex-col gap-2">
-                    <h1 className="font-bold text-lightTitle text-3xl dark:text-darkTitle">
-                        Conhecimentos
-                    </h1>
+                    <Title title='Conhecimentos' />
                     <span className="font-bold text-lightSubTitle text-md dark:text-darkSubTitle">
                         Tecnologias com as quais tenho trabalhado recentemente
                     </span>
