@@ -25,6 +25,7 @@ const config: Config = {
         darkGrandPink: '#E70FAA',
         darkBox: '#363636',
         colorJoker: '#8A63E6',
+        hoverJoker: '#7255B6',
         bgColorJokerDark: '#181818'
 
       },

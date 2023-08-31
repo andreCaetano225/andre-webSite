@@ -7,7 +7,7 @@ export const Experience = () => {
     return (
         <>
 
-            <div className="flex flex-col gap-4 mt-6">
+            <div className="flex flex-col  mt-28 gap-20">
                 <Title title='Experiências' />
                 <InfoExperience />
             </div>

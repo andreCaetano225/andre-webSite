@@ -40,7 +40,7 @@ export const AboutMe = () => {
                             <InfoItems title="Email:" description="andre.caetano2007@hotmail.com" />
                             <InfoItems title="Telefone:" description="+55 (88) 9 8866-5252" />
                             <InfoItems title="Localização:" description="Crato, Ceará, Brasil" />
-                            <InfoItems title="Liguagem:" description="Português, English" />
+                            <InfoItems title="Linguagem:" description="Português, English" />
                         </div>
 
 

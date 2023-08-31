@@ -27,7 +27,7 @@ export const TechStack = () => {
 
     return (
         <>
-            <div className="flex items-center flex-col justify-center text-center mt-28 gap-10">
+            <div className="flex items-center flex-col justify-center text-center mt-28 gap-20">
                 <div className="flex flex-col gap-2">
                     <Title title='Conhecimentos' />
                     <span className="font-bold text-lightSubTitle text-md dark:text-darkSubTitle">
