@@ -19,11 +19,17 @@ import StyledDark from '../../assets/styled-Dark.svg'
 import Jest from '../../assets/jest.svg'
 import { useTheme } from 'next-themes'
 import { Title } from '../Title';
-
+import Aos from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 export const TechStack = () => {
     const { theme } = useTheme();
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
 
     return (
         <>
@@ -34,7 +40,7 @@ export const TechStack = () => {
                         Tecnologias com as quais tenho trabalhado recentemente
                     </span>
                 </div>
-                <div className='grid grid-cols-6 gap-20'>
+                <div className='grid grid-cols-2 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-20' data-aos="fade-up">
                     <Stacks image={Html} url='https://developer.mozilla.org/pt-BR/docs/Web/HTML' />
                     <Stacks image={Css} url='https://developer.mozilla.org/pt-BR/docs/Web/CSS' />
                     <Stacks image={Js} url='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript' />
