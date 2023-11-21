@@ -28,7 +28,7 @@ export const Education = () => {
 
                     <div data-aos="fade-left" className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row  gap-24">
                         <div className="flex flex-col">
-                            <span className=" text-md font-semibold sm:text-xl md:text-xl lg:text-xl xl:text-xl">Bacharelado em Sistemas de Irformação</span>
+                            <span className=" text-md font-semibold sm:text-xl md:text-xl lg:text-xl xl:text-xl">Bacharelado em Sistemas de Informação</span>
                             <span className="text-lightSubTitle text-sm sm:text-md md:text-md lg:text-md xl:text-md dark:text-darkSubTitle sm:hidden md:hidden lg:hidden xl:hidden">Fev 2019 - Dez 2022</span>
 
                             <span className="text-lightSubTitle text-sm sm:text-md md:text-md lg:text-md xl:text-md dark:text-darkSubTitle">Centro Universitário Maurício de Nassau - UNINASSAU</span>
