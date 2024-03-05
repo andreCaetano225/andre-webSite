@@ -9,7 +9,7 @@ import type { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'André Dev - Blog',
+  title: 'André Sousa Dev - Blog',
   description: 'Com formação em Sistemas de Informação e mais de dois anos de experiência dedicados ao desenvolvimento de sistemas, destaco-me por minha especialidade no âmbito do front-end, onde utilizo habilmente as tecnologias React e Next.js.',
   metadataBase: new URL('https://www.devandresousa.com'),
   openGraph: {
@@ -46,3 +46,4 @@ export default function Home() {
     </div>
   )
 }
+
