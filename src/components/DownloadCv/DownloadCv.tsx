@@ -6,7 +6,7 @@ export const DownloadCv = () => {
     return (
         <>
             <div className="flex items-center justify-center  mt-28">
-                <a href="./CvAndreSousa.pdf" download rel="noreferrer" className="flex items-center p-4 gap-2 rounded-md bg-colorJoker hover:bg-hoverJoker transition duration-700 w-[11rem] text-[#fff] dark:text-[#000]">
+                <a href="./AndreSousaCv.pdf" download rel="noreferrer" className="flex items-center p-4 gap-2 rounded-md bg-colorJoker hover:bg-hoverJoker transition duration-700 w-[11rem] text-[#fff] dark:text-[#000]">
                     <span>
                         Download CV
                     </span>
