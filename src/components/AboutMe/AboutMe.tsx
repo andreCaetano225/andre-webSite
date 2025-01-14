@@ -44,7 +44,7 @@ export const AboutMe = () => {
                         </h1>
                         <div className="flex flex-col  gap-4">
                             <InfoItems title="Idade:" description="23 anos" />
-                            <InfoItems title="Email:" description="andre.caetano2007@hotmail.com" />
+                            <InfoItems title="Email:" description="andre@devandresousa.com" />
                             <InfoItems title="Telefone:" description="+55 (88) 9 8866-5252" />
                             <InfoItems title="Localização:" description="Crato, Ceará, Brasil" />
                             <InfoItems title="Linguagem:" description="Português, English" />
