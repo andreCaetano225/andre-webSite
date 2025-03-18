@@ -54,8 +54,8 @@ export const Profile = () => {
                 </motion.div>
 
                  <motion.div
-                initial={{ y: 20 }}
-                animate={{ y: 2 }}
+                initial={{ y: 10 }}
+                animate={{ y: 20 }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
             >
