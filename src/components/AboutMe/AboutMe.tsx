@@ -33,7 +33,7 @@ export const AboutMe = () => {
                             Sobre
                         </h1>
                         <p className="text-md text-lightSubTitle dark:text-darkSubTitle  w-[18.2rem] sm:w-[40rem] md:w-[40rem] lg:w-[40rem] xl:w-[40rem]">
-                            Com formação em Sistemas de Informação e mais de 4 anos de experiência dedicados ao desenvolvimento de sistemas, destaco-me por minha especialidade no âmbito do front-end, onde utilizo habilmente as tecnologias React e Next.js. Minha paixão por aprendizado contínuo impulsiona-me a estar sempre atualizado no cenário tecnológico em constante evolução. Como resultado, sou capaz de criar interfaces envolventes e funcionais, enquanto permaneço aberto a novos desafios que me permitam expandir ainda mais meu conjunto de habilidades. Lembro-me constantemente de que o progresso é uma jornada, não um destino, e assim sigo em busca de excelência e crescimento constante.
+                            Sou formado em Sistemas de Informação e tenho mais de 3 anos de experiência no desenvolvimento de sistemas, com especialização em front-end. Trabalho com React, Next.js e React Native para criar interfaces envolventes e funcionais. Além disso, tenho experiência com Node.js e Golang no desenvolvimento back-end. Estou sempre atualizado com as novas tendências tecnológicas, buscando aprimorar minhas habilidades e enfrentar novos desafios. Acredito no progresso contínuo e estou em constante evolução profissional.
                         </p>
 
                     </div>
