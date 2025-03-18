@@ -11,6 +11,13 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
+const poppins = Poppins({
+  display: 'swap',
+  weight: ['100' , '200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+})  
+
 
 
 
@@ -26,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-lightBg dark:bg-darkBg `}>
+      <body className={`${poppins.className} bg-lightBg dark:bg-darkBg `}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <ThemeSwitcher />
           <main className='mt-24'>{children}</main>
