@@ -27,7 +27,7 @@ export const AboutMe = () => {
         <>
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-col gap-8 bg-lightBox dark:bg-darkBox rounded-md p-5 sm:p-5 md:p-16 lg:p-16 xl:p-16  mt-28">
 
-                <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row gap-8 " data-aos="fade-down">
+                <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-8 " data-aos="fade-down">
                     <div className="flex flex-col gap-6">
                         <h1 className="font-bold text-lightTitle text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl dark:text-darkTitle ">
                             Sobre

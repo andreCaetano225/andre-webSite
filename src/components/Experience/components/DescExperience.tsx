@@ -13,7 +13,7 @@ export const DescExperience = ({ company, date, description, title }: DescExperi
         <>
 
             <div className="flex flex-col gap-4 ">
-                <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row justify-between">
+                <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row justify-between">
                     <h3 className=" text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">{title}</h3>
                     <span className="text-lightSubTitle dark:text-darkSubTitle">{date}</span>
                 </div>

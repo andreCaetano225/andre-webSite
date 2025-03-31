@@ -17,7 +17,7 @@ export const InfoExperience = () => {
 
     return (
         <>
-            <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row sm:gap-20 md:gap-20 lg:gap-20 xl:gap-20" >
+            <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row sm:gap-20 md:gap-20 lg:gap-20 xl:gap-20" >
                 <div data-aos="fade-right" className="sm:bg-lightBox md:bg-lightBox lg:bg-lightBox xl:bg-lightBox mr-4 sm:mr-0 md:mr-0 lg:mr-0 xl:mr-0 flex items-center sm:items-start md:items-start lg:items-start xl:items-start justify-center sm:justify-start md:justify-start lg:justify-start xl:justify-start flex-row sm:flex-col md:flex-col lg:flex-col xl:flex-col dark:bg-bgColorJokerDark sm:w-[15rem] md:w-[15rem] lg:w-[15rem] xl:w-[15rem] h-[8rem]">
 
                     <div className={experience2 ? 'h-12 flex items-center mt-1 cursor-pointer' : 'sm:border-l-4 md:border-l-4 lg:border-l-4 xl:border-l-4 h-12 border-colorJoker  flex items-center mt-1 cursor-pointer'} onClick={() => setexperience2(!experience2)}>
